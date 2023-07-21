@@ -2,7 +2,7 @@
 require_once "Patron.php";
 
 class Secretaire extends Patron implements Employee {
-    private $salaire;
+    private $salaire=2000;
 
 
     /**

@@ -1,7 +1,13 @@
 <?php
 
-class Ingenieur   extends Patron implements Employee {
+class Ingenieur   extends Patron implements Employee   {
     private $salaire;
+
+    public function __construct($prenom, $nom, $salaire) {
+        parent::__construct($prenom,$nom);
+        $this->salaire=$salaire;
+        
+    }
 
     /**
      * Get the value of salaire

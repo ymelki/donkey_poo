@@ -1,0 +1,10 @@
+this exemple sur l'affichage de prenom et nom
+questions sur l'initialisation des variables sur les constructeurs heritant
+sur le fait que les classes comme patron peuvent modifier d'autre classes
+comme stagiaire ou interface
+
+creer une classe commercial
+creer une propriete prime pour commercial et Ingenieur
+creer une interface primable
+utiliser l'interface primable par le patron
+tester vos methodes dans une application
