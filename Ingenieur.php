@@ -1,9 +1,7 @@
 <?php
-require_once "Patron.php";
 
-class Secretaire extends Patron implements Employee {
+class Ingenieur   extends Patron implements Employee {
     private $salaire;
-
 
     /**
      * Get the value of salaire

@@ -3,8 +3,8 @@
 class Patron {
 
     // propriété
-    public $prenom;
-    public $nom;
+    private $prenom;
+    private $nom;
     private $age;
 
 
@@ -14,8 +14,7 @@ class Patron {
 
     public function __construct(string $prenom,string $nom)    {
         $this->setNom($nom);
-        $this->setPrenom($prenom);
-      
+        $this->setPrenom($prenom); 
     }
 
 
@@ -83,5 +82,14 @@ class Patron {
         $this->nom = $nom;
 
         return $this;
+    }
+
+    public function payerindemn(Stagiaire $stagiaire){
+        $stagiaire->setIndemnite(660);
+    }
+
+    public function payersalarie(Employee $employee){
+        $employee->setSalaire(2000);
+
     }
 }
