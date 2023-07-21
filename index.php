@@ -20,7 +20,7 @@ $p1->sepresenter();
 // $p1->parlerPatron($s);
 $p1->gererStagiaire($s);
 $p1->augmentation($s1);
-$p1->augmentation($s);
+// $p1->augmentation($s);
 
 var_dump($s1);
 
