@@ -23,4 +23,9 @@ on fait une autre classe stagiaire
 on fait une autre methode qui prend en parametre le stagiaire
 on cree une classe secretaire et ingenieur qui extends patron
 on surcharge le constructeurs
-on veut une inrface employe pour une augemenation
+on veut une interface employe pour gerer l'augemenation le salaire
+(secretaire, ingenieur)
+on creer une classe commercial
+on veut gerer des primables (commercial , ingenieur)
+on fait que le patron puisse gerer les primables
+le GRH pourra gerer des employes , des primables ou tous

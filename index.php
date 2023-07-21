@@ -24,6 +24,10 @@ $p1->augmentation($s1);
 
 var_dump($s1);
 
+//$p1->setPrimePrimable($s,1000);
+$p1->setPrimePrimable($i1,1000);
+var_dump($i1);
+
 //require_once "Secretaire.php";
 
 

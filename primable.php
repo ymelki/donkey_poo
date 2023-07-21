@@ -2,16 +2,19 @@
 require_once "Stagiaire.php";
 require_once "Primable.php";
 
-class Patron {
+abstract  class Primable {
 
     // propriété
     // definir des proprietes avec des valeurs par defaut
     private $prenom="XXX";
     private $nom="XXX";
     private $age="XXX";
+    private $prime=0;
 
 
 
+    abstract public function getPrime();
+    abstract public function setPrime($prime);
 
 
     

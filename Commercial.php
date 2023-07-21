@@ -1,6 +1,6 @@
 <?php
 
-class Ingenieur   extends Primable implements Employee   {
+class Commercial   extends Patron implements Employee , Primable  {
     private $salaire;
     private $prime;
 
