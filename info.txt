@@ -8,3 +8,19 @@ creer une propriete prime pour commercial et Ingenieur
 creer une interface primable
 utiliser l'interface primable par le patron
 tester vos methodes dans une application
+
+
+Creer une classe patron
+mis des valeurs par defaut de prenom nom et age
+en public
+on teste
+on met en privee
+on fait les get et set
+on fait une methode sepresenter
+on fait le constructeurs
+on fait une methode qui prend en parametre le patron
+on fait une autre classe stagiaire
+on fait une autre methode qui prend en parametre le stagiaire
+on cree une classe secretaire et ingenieur qui extends patron
+on surcharge le constructeurs
+on veut une inrface employe pour une augemenation
